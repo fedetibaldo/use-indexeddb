@@ -23,4 +23,6 @@ export function useIndexedDBStore<T>(storeName: string) {
   return _actions;
 }
 
+export const getIndexedDBStore = getActions;
+
 export default setupIndexedDB;
